@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
 	ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    	cin.tie(NULL);
 	bool flag = false;
 	string table;
 	string hand[5];
