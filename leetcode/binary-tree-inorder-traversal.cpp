@@ -1,4 +1,5 @@
 /* https://leetcode.com/problems/binary-tree-inorder-traversal/ */
+// Iterative using stack
 class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
