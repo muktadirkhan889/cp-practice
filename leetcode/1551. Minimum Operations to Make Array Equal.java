@@ -1,0 +1,10 @@
+// O(1)
+class Solution {
+    public int minOperations(int n) {
+        int m = n / 2;
+        if (n%2!=0) {
+            return m*(m+1);
+        }
+        return m * m;
+    }
+}
