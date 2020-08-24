@@ -8,3 +8,11 @@ class Solution {
         return m * m;
     }
 }
+
+// Can also be written as
+
+class Solution {
+    public int minOperations(int n) {
+        return (n * n) / 4;
+    }
+}
